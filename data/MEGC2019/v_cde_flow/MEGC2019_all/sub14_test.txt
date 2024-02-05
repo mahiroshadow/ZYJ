@@ -1,0 +1,1 @@
+./CASME2-OpticalFlow-num\sub14\14-EP09_06-1.0.jpg 1 0

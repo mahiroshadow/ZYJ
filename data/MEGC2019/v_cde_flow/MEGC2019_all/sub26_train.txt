@@ -1,0 +1,13 @@
+./CASME2-OpticalFlow-num\sub26\26-EP03_10-1.0.jpg 1 0
+./CASME2-OpticalFlow-num\sub26\26-EP07_28-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP07_37-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP08_04-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP09_04-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP09_09-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP13_01-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP13_02-1.0.jpg 1 0
+./CASME2-OpticalFlow-num\sub26\26-EP13_11-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP15_01-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP16_01-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP18_44-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub26\26-EP18_46-0.0.jpg 0 0

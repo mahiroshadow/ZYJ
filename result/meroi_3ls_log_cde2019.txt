@@ -1,0 +1,711 @@
+2024-01-16 21:08:21.128481
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-17 09:27:38.775828
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-17 09:32:24.245591
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 10:20:05.502827
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 10:54:05.804298
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-17 10:57:18.513448
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 11:09:05.338710
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 11:17:24.039112
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 11:23:34.972417
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+2024-01-17 11:26:39.762758
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:nan
+2024-01-17 12:17:44.364465
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.0000
+2024-01-17 12:57:59.293050
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+2024-01-17 14:08:49.852323
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+2024-01-17 14:27:52.711829
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+2024-01-17 14:46:01.976006
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+	Subject sub07 has the accuracy:1.0000
+2024-01-17 15:16:21.979686
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-17 15:18:41.215507
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-17 15:19:32.198837
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub09 has the accuracy:0.3333
+2024-01-17 15:24:37.770473
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub08 has the accuracy:1.0000
+	Subject sub09 has the accuracy:0.6667
+	Subject sub11 has the accuracy:1.0000
+	Subject sub12 has the accuracy:1.0000
+	Subject sub13 has the accuracy:1.0000
+	Subject sub14 has the accuracy:1.0000
+	Subject sub15 has the accuracy:1.0000
+	Subject sub16 has the accuracy:1.0000
+	Subject sub17 has the accuracy:0.8571
+	Subject sub19 has the accuracy:0.5000
+	Subject sub20 has the accuracy:1.0000
+2024-01-17 15:50:57.259332
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub21 has the accuracy:0.0000
+	Subject sub22 has the accuracy:1.0000
+	Subject sub23 has the accuracy:1.0000
+	Subject sub24 has the accuracy:0.0000
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:1.0000
+2024-01-17 16:28:23.534618
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub26 has the accuracy:0.6667
+
+Overall:
+	the ACC:0.6667 and the UAR and UF1 of all data are 0.6667 and 0.4000
+	the ACC:0.6667 and UAR and UF1 of casme2 are 0.6667 and 0.4000
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-17 16:38:41.134166
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+	Subject sub07 has the accuracy:1.0000
+	Subject sub09 has the accuracy:0.3333
+	Subject sub11 has the accuracy:1.0000
+	Subject sub12 has the accuracy:1.0000
+	Subject sub13 has the accuracy:1.0000
+	Subject sub14 has the accuracy:1.0000
+	Subject sub15 has the accuracy:1.0000
+	Subject sub16 has the accuracy:1.0000
+	Subject sub17 has the accuracy:0.8571
+	Subject sub19 has the accuracy:0.5000
+	Subject sub20 has the accuracy:1.0000
+	Subject sub22 has the accuracy:1.0000
+	Subject sub23 has the accuracy:1.0000
+	Subject sub24 has the accuracy:0.0000
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:0.6667
+2024-01-17 18:56:28.549810
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:1.0000
+2024-01-17 19:08:41.918675
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:1.0000
+2024-01-17 19:18:00.983440
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:1.0000
+2024-01-17 19:23:40.716551
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:1.0000
+
+Overall:
+	the ACC:0.8000 and the UAR and UF1 of all data are 0.5000 and 0.4444
+	the ACC:0.8000 and UAR and UF1 of casme2 are 0.5000 and 0.4444
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-17 19:30:31.628444
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:0.5000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+	Subject sub07 has the accuracy:1.0000
+	Subject sub09 has the accuracy:0.3333
+	Subject sub11 has the accuracy:1.0000
+	Subject sub12 has the accuracy:1.0000
+	Subject sub13 has the accuracy:1.0000
+	Subject sub14 has the accuracy:1.0000
+	Subject sub15 has the accuracy:1.0000
+	Subject sub16 has the accuracy:1.0000
+	Subject sub17 has the accuracy:0.8571
+	Subject sub19 has the accuracy:0.5000
+	Subject sub20 has the accuracy:1.0000
+	Subject sub22 has the accuracy:1.0000
+	Subject sub23 has the accuracy:1.0000
+	Subject sub24 has the accuracy:0.0000
+	Subject sub25 has the accuracy:0.5000
+	Subject sub26 has the accuracy:0.6667
+
+Overall:
+	the ACC:0.7843 and the UAR and UF1 of all data are 0.6650 and 0.6596
+	the ACC:0.7843 and UAR and UF1 of casme2 are 0.6650 and 0.6596
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-19 12:02:45.177549
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-19 13:19:07.722206
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject 006 has the accuracy:0.5000
+	Subject 007 has the accuracy:0.5000
+	Subject 009 has the accuracy:0.0000
+	Subject 010 has the accuracy:1.0000
+	Subject 011 has the accuracy:0.3333
+	Subject 012 has the accuracy:0.0000
+	Subject 013 has the accuracy:1.0000
+	Subject 014 has the accuracy:1.0000
+	Subject 015 has the accuracy:0.0000
+	Subject 016 has the accuracy:0.0000
+	Subject 017 has the accuracy:1.0000
+	Subject 018 has the accuracy:0.0000
+	Subject 019 has the accuracy:1.0000
+	Subject 020 has the accuracy:0.5000
+2024-01-19 13:56:10.426049
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject 022 has the accuracy:0.0000
+	Subject 026 has the accuracy:1.0000
+	Subject 028 has the accuracy:0.0000
+	Subject 030 has the accuracy:1.0000
+	Subject 032 has the accuracy:1.0000
+	Subject 033 has the accuracy:1.0000
+	Subject 034 has the accuracy:1.0000
+	Subject 035 has the accuracy:1.0000
+	Subject 037 has the accuracy:1.0000
+
+Overall:
+	the ACC:0.8000 and the UAR and UF1 of all data are 0.3333 and 0.2963
+	the ACC:0.8000 and UAR and UF1 of samm are 0.3333 and 0.2963
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-19 14:59:18.318641
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject 006 has the accuracy:0.5000
+	Subject 007 has the accuracy:0.5000
+	Subject 009 has the accuracy:0.0000
+	Subject 010 has the accuracy:1.0000
+	Subject 011 has the accuracy:0.3333
+	Subject 012 has the accuracy:0.0000
+	Subject 013 has the accuracy:1.0000
+	Subject 014 has the accuracy:1.0000
+	Subject 015 has the accuracy:0.0000
+	Subject 016 has the accuracy:0.0000
+	Subject 017 has the accuracy:1.0000
+	Subject 018 has the accuracy:0.0000
+	Subject 019 has the accuracy:1.0000
+	Subject 020 has the accuracy:0.0000
+	Subject 022 has the accuracy:0.0000
+	Subject 026 has the accuracy:1.0000
+	Subject 028 has the accuracy:0.0000
+	Subject 030 has the accuracy:1.0000
+	Subject 032 has the accuracy:1.0000
+	Subject 033 has the accuracy:1.0000
+	Subject 034 has the accuracy:1.0000
+	Subject 035 has the accuracy:1.0000
+	Subject 037 has the accuracy:1.0000
+
+Overall:
+	the ACC:0.5517 and the UAR and UF1 of all data are 0.4028 and 0.3545
+	the ACC:0.5517 and UAR and UF1 of samm are 0.4028 and 0.3545
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-19 22:42:22.623427
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:1.0000
+	Subject sub02 has the accuracy:1.0000
+	Subject sub03 has the accuracy:1.0000
+	Subject sub04 has the accuracy:1.0000
+	Subject sub05 has the accuracy:1.0000
+	Subject sub06 has the accuracy:0.0000
+	Subject sub07 has the accuracy:1.0000
+	Subject sub08 has the accuracy:1.0000
+	Subject sub09 has the accuracy:0.5000
+	Subject sub10 has the accuracy:1.0000
+	Subject sub11 has the accuracy:1.0000
+	Subject sub12 has the accuracy:1.0000
+	Subject sub13 has the accuracy:1.0000
+	Subject sub14 has the accuracy:1.0000
+	Subject sub15 has the accuracy:0.0000
+	Subject sub16 has the accuracy:1.0000
+	Subject sub17 has the accuracy:0.6000
+	Subject sub18 has the accuracy:1.0000
+	Subject sub19 has the accuracy:0.3333
+	Subject sub20 has the accuracy:1.0000
+	Subject sub21 has the accuracy:1.0000
+	Subject sub22 has the accuracy:1.0000
+	Subject sub23 has the accuracy:1.0000
+	Subject sub24 has the accuracy:0.5000
+	Subject sub25 has the accuracy:1.0000
+	Subject sub26 has the accuracy:1.0000
+
+Overall:
+	the ACC:0.8491 and the UAR and UF1 of all data are 0.7908 and 0.6219
+	the ACC:0.8491 and UAR and UF1 of casme2 are 0.7908 and 0.6219
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-01-31 17:21:47.065386
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 18:39:54.112435
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 18:41:42.665363
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 18:42:17.873492
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 18:43:24.815149
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 18:49:29.842184
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 19:22:05.994792
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 19:53:39.807121
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 19:55:55.626128
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 20:00:44.447373
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 20:04:46.658270
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 20:07:27.321369
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 20:14:36.722164
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 20:21:19.515417
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 21:29:06.914141
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 21:43:55.936840
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 21:45:12.785024
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 21:52:58.982442
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 21:55:54.993214
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:03:20.004192
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:04:22.123935
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:08:38.410774
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:09:05.342254
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:10:05.008717
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:11:04.138444
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:12:38.545894
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:31:20.853315
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:55:35.831833
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 22:59:19.782467
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 23:08:44.173858
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-01-31 23:09:43.807428
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-01 12:28:08.456130
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 11:25:02.050884
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 11:29:30.271513
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:nan
+	Subject sub02 has the accuracy:nan
+	Subject sub03 has the accuracy:nan
+	Subject sub04 has the accuracy:nan
+2024-02-04 11:31:51.476439
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:nan
+2024-02-04 11:34:16.129490
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+	Subject sub01 has the accuracy:nan
+2024-02-04 11:42:56.847589
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:nan2024-02-04 11:44:20.166047
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:nanSubject sub02 has the accuracy:nan2024-02-04 13:21:36.109208
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.00002024-02-04 13:22:33.652894
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.00002024-02-04 14:17:29.581322
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 14:17:48.899098
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:nanSubject sub04 has the accuracy:nanSubject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:nanSubject sub07 has the accuracy:0.00002024-02-04 14:21:28.495499
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:nanSubject sub04 has the accuracy:nanSubject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:nanSubject sub07 has the accuracy:0.00002024-02-04 14:24:17.405661
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:nanSubject sub04 has the accuracy:nanSubject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:nanSubject sub07 has the accuracy:0.00002024-02-04 14:37:03.147900
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:nanSubject sub04 has the accuracy:nanSubject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:nanSubject sub07 has the accuracy:0.00002024-02-04 14:39:13.761457
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:nanSubject sub04 has the accuracy:nanSubject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:nanSubject sub07 has the accuracy:0.00002024-02-04 15:00:39.066045
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.0000Subject sub02 has the accuracy:0.00002024-02-04 15:16:54.411168
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 15:17:35.603368
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 15:18:01.584158
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.00002024-02-04 15:18:53.837174
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:0.0000Subject sub04 has the accuracy:0.0000Subject sub05 has the accuracy:0.0000Subject sub06 has the accuracy:1.0000Subject sub07 has the accuracy:0.0000Subject sub08 has the accuracy:1.0000Subject sub09 has the accuracy:0.0000Subject sub10 has the accuracy:1.0000Subject sub11 has the accuracy:0.5000Subject sub12 has the accuracy:1.0000Subject sub13 has the accuracy:1.0000Subject sub14 has the accuracy:0.0000Subject sub15 has the accuracy:0.0000Subject sub16 has the accuracy:0.0000Subject sub17 has the accuracy:0.0000Subject sub18 has the accuracy:0.0000Subject sub19 has the accuracy:0.3333Subject sub20 has the accuracy:0.0000Subject sub21 has the accuracy:0.0000Subject sub22 has the accuracy:1.0000Subject sub23 has the accuracy:0.0000Subject sub24 has the accuracy:0.0000Subject sub25 has the accuracy:1.0000Subject sub26 has the accuracy:0.0000
+Overall:
+	the ACC:0.2453 and the UAR and UF1 of all data are 0.0922 and 0.1376
+	the ACC:0.2453 and UAR and UF1 of casme2 are 0.0922 and 0.1376
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:1, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-02-04 15:22:12.492037
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:1.0000Subject sub04 has the accuracy:1.0000Subject sub05 has the accuracy:1.0000Subject sub06 has the accuracy:0.0000Subject sub07 has the accuracy:1.0000Subject sub08 has the accuracy:1.0000Subject sub09 has the accuracy:0.0000Subject sub10 has the accuracy:1.0000Subject sub11 has the accuracy:1.0000Subject sub12 has the accuracy:0.0000Subject sub13 has the accuracy:0.0000Subject sub14 has the accuracy:1.0000Subject sub15 has the accuracy:0.0000Subject sub16 has the accuracy:0.0000Subject sub17 has the accuracy:0.6000Subject sub18 has the accuracy:1.0000Subject sub19 has the accuracy:0.3333Subject sub20 has the accuracy:1.0000Subject sub21 has the accuracy:1.0000Subject sub22 has the accuracy:0.0000Subject sub23 has the accuracy:1.0000Subject sub24 has the accuracy:0.5000Subject sub25 has the accuracy:1.0000Subject sub26 has the accuracy:1.0000
+Overall:
+	the ACC:0.6792 and the UAR and UF1 of all data are 0.4149 and 0.3162
+	the ACC:0.6792 and UAR and UF1 of casme2 are 0.4149 and 0.3162
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:30, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-02-04 16:22:21.428337
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.0000
+Subject sub02 has the accuracy:0.5000
+Subject sub03 has the accuracy:1.0000
+Subject sub04 has the accuracy:1.0000
+Subject sub05 has the accuracy:1.0000
+Subject sub06 has the accuracy:0.0000
+Subject sub07 has the accuracy:1.0000
+Subject sub08 has the accuracy:1.0000
+Subject sub09 has the accuracy:0.0000
+Subject sub10 has the accuracy:1.0000
+Subject sub11 has the accuracy:1.0000
+Subject sub12 has the accuracy:1.0000
+Subject sub13 has the accuracy:0.0000
+Subject sub14 has the accuracy:1.0000
+Subject sub15 has the accuracy:0.0000
+Subject sub16 has the accuracy:1.0000
+Subject sub17 has the accuracy:1.0000
+Subject sub18 has the accuracy:1.0000
+Subject sub19 has the accuracy:0.3333
+Subject sub20 has the accuracy:1.0000
+Subject sub21 has the accuracy:1.0000
+Subject sub22 has the accuracy:1.0000
+Subject sub23 has the accuracy:1.0000
+Subject sub24 has the accuracy:0.5000
+Subject sub25 has the accuracy:0.0000
+Subject sub26 has the accuracy:1.0000
+Overall:
+	the ACC:0.8113 and the UAR and UF1 of all data are 0.7004 and 0.5311
+	the ACC:0.8113 and UAR and UF1 of casme2 are 0.7004 and 0.5311
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-02-04 19:18:59.845973
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:19:57.397747
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:21:18.130684
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:23:02.663512
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:24:35.736237
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:25:48.085152
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:27:08.266993
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:27:57.958152
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:34:33.239096
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:35:17.992615
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:36:05.707288
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 19:37:15.137747
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.0000Subject sub02 has the accuracy:1.0000Subject sub03 has the accuracy:1.0000Subject sub04 has the accuracy:1.0000Subject sub05 has the accuracy:1.0000Subject sub06 has the accuracy:0.0000Subject sub07 has the accuracy:1.0000Subject sub08 has the accuracy:1.0000Subject sub09 has the accuracy:0.0000Subject sub10 has the accuracy:1.0000Subject sub11 has the accuracy:1.0000Subject sub12 has the accuracy:1.0000Subject sub13 has the accuracy:0.0000Subject sub14 has the accuracy:1.0000Subject sub15 has the accuracy:0.0000Subject sub16 has the accuracy:1.0000Subject sub17 has the accuracy:0.8000Subject sub18 has the accuracy:1.0000Subject sub19 has the accuracy:0.3333Subject sub20 has the accuracy:1.0000Subject sub21 has the accuracy:1.0000Subject sub22 has the accuracy:1.0000Subject sub23 has the accuracy:1.0000Subject sub24 has the accuracy:0.5000Subject sub25 has the accuracy:1.0000Subject sub26 has the accuracy:0.5000
+Overall:
+	the ACC:0.7925 and the UAR and UF1 of all data are 0.7695 and 0.5724
+	the ACC:0.7925 and UAR and UF1 of casme2 are 0.7695 and 0.5724
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-02-04 21:11:21.083078
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-04 21:12:40.497577
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:1.0000Subject sub02 has the accuracy:0.5000Subject sub03 has the accuracy:0.0000Subject sub04 has the accuracy:1.0000Subject sub05 has the accuracy:1.0000Subject sub06 has the accuracy:0.0000Subject sub07 has the accuracy:1.0000Subject sub08 has the accuracy:1.0000Subject sub09 has the accuracy:0.5000Subject sub10 has the accuracy:1.0000Subject sub11 has the accuracy:1.0000Subject sub12 has the accuracy:1.0000Subject sub13 has the accuracy:0.0000Subject sub14 has the accuracy:1.0000Subject sub15 has the accuracy:0.0000Subject sub16 has the accuracy:1.0000Subject sub17 has the accuracy:1.0000Subject sub18 has the accuracy:1.0000Subject sub19 has the accuracy:0.3333Subject sub20 has the accuracy:1.0000Subject sub21 has the accuracy:1.0000Subject sub22 has the accuracy:1.0000Subject sub23 has the accuracy:1.0000Subject sub24 has the accuracy:0.5000Subject sub25 has the accuracy:1.0000Subject sub26 has the accuracy:1.0000
+Overall:
+	the ACC:0.8302 and the UAR and UF1 of all data are 0.7074 and 0.5471
+	the ACC:0.8302 and UAR and UF1 of casme2 are 0.7074 and 0.5471
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:60, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,2 @@
+./CASME2-OpticalFlow-num\sub21\21-EP01_07-0.0.jpg 0 0
+./CASME2-OpticalFlow-num\sub21\21-EP05_02-0.0.jpg 0 0

@@ -1,0 +1,8 @@
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_3_1-0.0.jpg 0 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_4_2-0.0.jpg 0 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_5_3-2.0.jpg 2 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_5_4-0.0.jpg 0 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_6_1-1.0.jpg 1 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_6_2-1.0.jpg 1 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_6_3-1.0.jpg 1 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_6_5-1.0.jpg 1 1

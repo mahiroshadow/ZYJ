@@ -1,0 +1,2 @@
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_7_1-2.0.jpg 2 1
+D:\yanyan\deeplearning\micro_expression\code\Dual-ATME\Dual-ATME-master\SAMM-OpticalFlow-num_new\007\007-007_7_5-1.0.jpg 1 1
