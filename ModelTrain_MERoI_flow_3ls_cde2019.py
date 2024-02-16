@@ -7,9 +7,11 @@ import torchvision
 from torchvision import transforms
 from Datasets import MEGC2019_SI_MeRoI as MEGC2019
 import LossFunctions
-from Me_Model_att import MEROIInception
+# from Me_Model_att import MEROIInception
+from module.model1 import MEROIInception1
 import Metrics as metrics
 from torch.utils.data import DataLoader
+import torch.nn.functional as F
 
 device="cuda:0" if torch.cuda.is_available() else "cpu"
 
@@ -39,6 +41,21 @@ def arg_process():
     return args
 
 
+def sim(z1, z2):
+    # 归一化 dim=32*64
+    z1 = F.normalize(z1)
+    # dim=32*64
+    z2 = F.normalize(z2)
+    return (z1 * z2).sum(dim=1)
+
+
+def INFONCELoss(z1, z2):
+    f = lambda x: torch.exp(x / 0.7)
+    between_sim = f(sim(z1, z2))
+    rand_item = torch.randperm(z1.shape[0])
+    neg_sim = f(sim(z1, z2[rand_item])) + f(sim(z2, z1[rand_item]))
+    return -torch.log(between_sim / (between_sim + between_sim + neg_sim))
+
 def train_model(model, dataloaders, cosine_sim, criterion, optimizer, device='cpu', num_epochs=25):
     since = time.time()
     # best_model_wts = copy.deepcopy(model.state_dict())
@@ -65,12 +82,15 @@ def train_model(model, dataloaders, cosine_sim, criterion, optimizer, device='cp
             # forward to get model outputs and calculate loss
             out_x1, out_x2, output_class = model(inputs1, inputs2)
 
-            loss_contrast = 1 - cosine_sim(out_x1, out_x2)
-            loss_contrast = loss_contrast.mean()
+            # loss_contrast = 1 - cosine_sim(out_x1, out_x2)
+            # loss_contrast = loss_contrast.mean()
+
+
+            loss_contrast=INFONCELoss(out_x1, out_x2).mean()
 
             loss_class = criterion(output_class, class_labels)  # 计算output_class的loss
 
-            loss = 0.01 * loss_contrast + loss_class  # 到时候con的系数可以调
+            loss = 0.1 * loss_contrast + loss_class  # 到时候con的系数可以调
 
             # backward
             loss.backward()
@@ -150,7 +170,7 @@ def main():
     # logPath = os.path.join('result', runFileName+'_log_'+'v{}'.format(version)+'.txt')
     # resultPath = os.path.join('result', 'result_'+'v{}'.format(version)+'.pt')
     data_transforms = transforms.Compose([
-        transforms.Resize(28),
+        transforms.Resize(64),
         # transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5]),
@@ -211,7 +231,7 @@ def main():
         print('\tCreating deep model....')
         if model_name == 'meroi':
             # model_ft = MyMEROI(in_channels=3,num_classes=classes)  # 仅Conv双分支
-            model_ft = MEROIInception(in_channels=3, num_classes=classes)  # 仅Incep双分支
+            model_ft = MEROIInception1(in_channels=3, num_classes=classes)  # 仅Incep双分支
             # model_ft = Inception2MEROI(in_channels=3, num_classes=classes)  # Incep双分支+Conv
         params_to_update = model_ft.parameters()
 
