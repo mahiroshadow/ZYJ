@@ -339,7 +339,7 @@ class MEROIInception(nn.Module):
         # print(x1.shape)
         # print(f"origin_f2_shape:{x2.shape}")
         out_x1 = self.Inception1_1(x1)  # 24*28*28
-        out_x1 = self.maxpool(out_x1)  # 12*14*14
+        out_x1 = self.maxpool(out_x1)  # 24*14*14
         out_x1 = self.Inception1_2(out_x1)  # 24*14*14
         out_x1 = self.maxpool(out_x1)  # 48*7*7
         out_x1 = self.cbam(out_x1)  # 48*7*7

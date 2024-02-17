@@ -1,4 +1,4 @@
-import os, sys, datetime, time, random, argparse, copy
+import os, datetime, time, random, argparse
 import numpy as np
 import torch
 import torch.optim as optim
@@ -7,8 +7,7 @@ import torchvision
 from torchvision import transforms
 from Datasets import MEGC2019_SI_MeRoI as MEGC2019
 import LossFunctions
-# from Me_Model_att import MEROIInception
-from module.model1 import MEROIInception1
+from module.Me_Model_att import MEROIInception
 import Metrics as metrics
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
@@ -170,7 +169,7 @@ def main():
     # logPath = os.path.join('result', runFileName+'_log_'+'v{}'.format(version)+'.txt')
     # resultPath = os.path.join('result', 'result_'+'v{}'.format(version)+'.pt')
     data_transforms = transforms.Compose([
-        transforms.Resize(64),
+        transforms.Resize(28),
         # transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5]),
@@ -231,7 +230,7 @@ def main():
         print('\tCreating deep model....')
         if model_name == 'meroi':
             # model_ft = MyMEROI(in_channels=3,num_classes=classes)  # 仅Conv双分支
-            model_ft = MEROIInception1(in_channels=3, num_classes=classes)  # 仅Incep双分支
+            model_ft = MEROIInception(in_channels=3, num_classes=classes)  # 仅Incep双分支
             # model_ft = Inception2MEROI(in_channels=3, num_classes=classes)  # Incep双分支+Conv
         params_to_update = model_ft.parameters()
 
