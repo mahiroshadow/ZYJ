@@ -57,17 +57,25 @@ class Inception(nn.Module):
             branch_pool = self.branch_pool(x_2d)
             outputs = [branch1x1, branch3x3, branch5x5, branch_pool]
             # 4个分支在dim=1即沿着channel(张量是0batch,1channel,2weight,3height)上进行concatenate。6+6+6+6=24(输出通道数)
-            out=torch.cat(outputs, dim=1)
+            outputs=torch.cat(outputs, dim=1)
+            out = self.maxpool(outputs)
         return out
 
 class IRNN(nn.Module):
-    def __init__(self, h_RNN_layers, h_RNN, h_FC_dim,drop_p):
+    def __init__(self, h_RNN_layers,drop_p,num_classes):
         super(IRNN,self).__init__()
         self.Inception1_1 = Inception(in_channels=3, out_channels=6,mode='video')
         self.Inception1_2 = Inception(in_channels=24, out_channels=12,mode='video')
         self.Inception2_1 = Inception(in_channels=3, out_channels=6,mode='image')
         self.Inception2_2 = Inception(in_channels=24, out_channels=12,mode='image')
-        self.rnn = RNN(48*7*7, h_RNN_layers, 16*7*7, h_FC_dim, drop_p)
+        self.rnn = RNN(48*7*7, h_RNN_layers, 16*7*7, drop_p)
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(in_features=7 * 7 * 48 * 2, out_features=1024),  # 单层14*14*24，双层7*7*48
+            torch.nn.BatchNorm1d(1024),
+            torch.nn.ReLU(inplace=True),
+            torch.nn.Dropout(0.5),
+            torch.nn.Linear(in_features=1024, out_features=num_classes),
+        )
 
     def forward(self,x1,x2):
         '''
@@ -79,17 +87,20 @@ class IRNN(nn.Module):
         out_x1=self.rnn(out_x1)
         out_x2=self.Inception2_1(x2)
         out_x2=self.Inception2_2(out_x2)
-        return out_x1,out_x2
+        out_x2 = out_x2.reshape(out_x2.shape[0], -1)
+        x = torch.cat([out_x1, out_x2], dim=1)
+        x = self.fc(x)
+
+        return out_x1,out_x2,x
 
 
 class RNN(nn.Module):
-    def __init__(self, CNN_embed_dim, h_RNN_layers, h_RNN, h_FC_dim, drop_p):
+    def __init__(self, CNN_embed_dim, h_RNN_layers, h_RNN, drop_p):
         super().__init__()
 
         self.RNN_input_size = CNN_embed_dim
         self.h_RNN_layers = h_RNN_layers  # RNN hidden layers
         self.h_RNN = h_RNN  # RNN hidden nodes
-        self.h_FC_dim = h_FC_dim
         self.drop_p = drop_p
 
         self.LSTM = nn.LSTM(
@@ -99,7 +110,7 @@ class RNN(nn.Module):
             batch_first=True
         )
 
-        self.fc1 = nn.Linear(self.h_RNN, self.CNN_embed_dim)
+        self.fc1 = nn.Linear(self.h_RNN, CNN_embed_dim)
 
     def forward(self, x_RNN):
         rnn_out, (_, _) = self.LSTM(x_RNN, None)
