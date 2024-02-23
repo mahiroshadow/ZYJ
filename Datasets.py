@@ -1,12 +1,14 @@
 import os
 import torch
+import pandas as pd
 import numpy as np
 from PIL import Image
 import cv2
 import matplotlib.pyplot as plt
+from torch.utils.data import Dataset
 
 
-class MEGC2019(torch.utils.data.Dataset):
+class MEGC2019(Dataset):
     """MEGC2019 dataset class with 3 categories"""
 
     def __init__(self, imgList, transform=None):
@@ -90,4 +92,21 @@ class MEGC2019_SI_MeRoI_single(torch.utils.data.Dataset):  # Flow
     def __len__(self):
         return len(self.imgPath)
 
-Image.open("CASME2-OpticalFlow-num\\sub01\\01-EP03_02-0.0.jpg","r")
+class IRNN2023(Dataset):
+    def __init__(self,pth,transform):
+        super(IRNN2023,self).__init__()
+        self.df=pd.read_csv(pth)
+        self.transform=transform
+
+    def __getitem__(self, index):
+        image_seq=[]
+        for (root,dir,files) in os.walk(self.df["pth"][index]):
+            for file in files:
+                img=self.transform(Image.open(root+"\\"+file))
+                image_seq.append(img.detach().numpy())
+        image_seq=np.array(image_seq)
+        return image_seq,self.df["class_label"][index]
+
+    def __len__(self):
+        return len(self.df)
+

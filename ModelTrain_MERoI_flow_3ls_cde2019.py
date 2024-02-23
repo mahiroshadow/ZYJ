@@ -87,6 +87,7 @@ def train_model(model, dataloaders, cosine_sim, criterion, optimizer, device='cp
 
             loss_contrast=INFONCELoss(out_x1, out_x2).mean()
 
+            print(f"out,label:{output_class.shape,class_labels.shape}")
             loss_class = criterion(output_class, class_labels)  # 计算output_class的loss
 
             loss = 0.1 * loss_contrast + loss_class  # 到时候con的系数可以调

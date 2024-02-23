@@ -14,13 +14,13 @@ def batch_extract_frame():
         for file in files:
             frames=0
             video=cv2.VideoCapture(path+'/'+file)
-            os.makedirs(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file}")
+            os.makedirs(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}")
             while True:
                 _,f=video.read()
-                if f is None:
+                if f is None or frames//2==5:
                     break
                 if frames%2==0:
-                    cv2.imwrite(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file}/{frames//2}.jpg",f)
+                    cv2.imwrite(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}/{frames//2}.jpg",f)
                 frames+=1
 
 
