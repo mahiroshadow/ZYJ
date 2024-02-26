@@ -832,3 +832,29 @@ Results:
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 Results:
+2024-02-24 11:01:52.570640
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-24 11:30:53.363022
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+Subject sub01 has the accuracy:0.0000Subject sub02 has the accuracy:0.0000Subject sub03 has the accuracy:0.0000Subject sub04 has the accuracy:0.0000Subject sub05 has the accuracy:1.0000Subject sub06 has the accuracy:0.0000Subject sub07 has the accuracy:0.0000Subject sub08 has the accuracy:0.0000Subject sub09 has the accuracy:0.0000Subject sub10 has the accuracy:0.0000Subject sub11 has the accuracy:0.0000Subject sub12 has the accuracy:1.0000Subject sub13 has the accuracy:1.0000Subject sub14 has the accuracy:0.0000Subject sub15 has the accuracy:0.0000Subject sub16 has the accuracy:0.0000Subject sub17 has the accuracy:0.6000Subject sub18 has the accuracy:0.0000Subject sub19 has the accuracy:0.3333Subject sub20 has the accuracy:0.6667Subject sub21 has the accuracy:0.0000Subject sub22 has the accuracy:0.0000Subject sub23 has the accuracy:0.0000Subject sub24 has the accuracy:0.0000Subject sub25 has the accuracy:0.0000Subject sub26 has the accuracy:0.7500
+Overall:
+	the ACC:0.2830 and the UAR and UF1 of all data are 0.1826 and 0.1684
+	the ACC:0.2830 and UAR and UF1 of casme2 are 0.1826 and 0.1684
+
+Setting:	Netname:meroi, Dataversion:cde_flow
+	Learning rate:0.0001, Epochs:1, Batchsize:128.
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+2024-02-25 10:54:42.802451
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:
+2024-02-25 10:55:06.372178
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Results:

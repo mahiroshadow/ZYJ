@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm
 
 
-per_frame_save=2
+# per_frame_save=2
 
 def batch_extract_frame():
     prefix='../CASME2_Compressed video/CASME2_Compressed video/CASME2_compressed/'
@@ -17,10 +17,10 @@ def batch_extract_frame():
             os.makedirs(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}")
             while True:
                 _,f=video.read()
-                if f is None or frames//2==5:
+                if f is None or frames//1==5:
                     break
-                if frames%2==0:
-                    cv2.imwrite(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}/{frames//2}.jpg",f)
+                if frames%1==0:
+                    cv2.imwrite(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}/{frames//1}.jpg",f)
                 frames+=1
 
 
