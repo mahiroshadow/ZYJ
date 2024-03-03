@@ -80,7 +80,7 @@ def train():
     acc_w, acc_uw = eval_acc.eval(pred_all_tensor,ground_truth_all_tensor)
     f1_w, f1_uw = eval_f1.eval(pred_all_tensor,ground_truth_all_tensor)
     # 添加log日志
-    pd.DataFrame({"train_date":[datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")],"acc":[acc_w],"uar":[acc_uw],"uf1":[f1_uw]}).to_csv("log.csv",mode='a',header=False)
+    pd.DataFrame({"train_date":[datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")],"acc":[acc_w],"uar":[acc_uw],"uf1":[f1_uw]}).to_csv("log.csv",mode='a',index=False,header=False)
     print("The dataset has the ACC:{:.4f} and UAR and UF1:{:.4f} and {:.4f}".format(acc_w, acc_uw, f1_uw))
 
 def evaluate(model,pth,transform,pred_all_tensor,ground_truth_all_tensor):
