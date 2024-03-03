@@ -112,14 +112,21 @@ class IRNN(nn.Module):
         self.Inception1_2 = Inception(in_channels=24, out_channels=12,mode='video')
         self.Inception2_1 = Inception(in_channels=3, out_channels=6,mode='image')
         self.Inception2_2 = Inception(in_channels=24, out_channels=12,mode='image')
-        self.rnn = RNN(48*16*16, h_RNN_layers, 16*8*8, drop_p)
+        self.rnn = RNN(48*16*16, h_RNN_layers, 24*8*8, drop_p)
         self.cbam=CBAM(48,mode="video")
         self.fc = torch.nn.Sequential(
             torch.nn.Linear(in_features=16 * 16 * 48 , out_features=4048),  # 单层14*14*24，双层7*7*48
             torch.nn.BatchNorm1d(4048),
             torch.nn.ReLU(inplace=True),
-            torch.nn.Dropout(0.5),
+            torch.nn.Dropout(0.4),
             torch.nn.Linear(in_features=4048, out_features=num_classes),
+        )
+        self.fc1=torch.nn.Sequential(
+            torch.nn.Linear(in_features=16 * 16 * 48 *2, out_features=9096),  # 单层14*14*24，双层7*7*48
+            torch.nn.BatchNorm1d(9096),
+            torch.nn.ReLU(inplace=True),
+            torch.nn.Dropout(0.4),
+            torch.nn.Linear(in_features=9096, out_features=num_classes),
         )
 
     def forward(self,x1,x2):
@@ -135,15 +142,14 @@ class IRNN(nn.Module):
         # print(out_x1.shape)
         out_x1 =out_x1.reshape(out_x1.shape[0],out_x1.shape[1],-1)
         out_x1=self.rnn(out_x1)
-        '''
+
         out_x2=self.Inception2_1(x2)
         out_x2=self.Inception2_2(out_x2)
         out_x2 = out_x2.reshape(out_x2.shape[0], -1)
         x = torch.cat([out_x1, out_x2], dim=1)
-        '''
-        x=out_x1
-        x = self.fc(x)
-        return out_x1,x
+
+        x = self.fc1(x)
+        return out_x1,out_x2,x
 
 
 class RNN(nn.Module):

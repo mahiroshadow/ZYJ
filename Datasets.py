@@ -100,12 +100,16 @@ class IRNN2023(Dataset):
 
     def __getitem__(self, index):
         image_seq=[]
+        final_img=None
         for (root,dir,files) in os.walk(self.df["pth"][index]):
-            for file in files:
+            for (idx,file) in enumerate(files):
                 img=self.transform(Image.open(root+"\\"+file))
-                image_seq.append(img.detach().numpy())
+                if idx<=4:
+                    image_seq.append(img.detach().numpy())
+                else:
+                    final_img=np.array(img)
         image_seq=np.array(image_seq)
-        return image_seq,self.df["class_label"][index]
+        return image_seq,self.df["class_label"][index],final_img
 
     def __len__(self):
         return len(self.df)

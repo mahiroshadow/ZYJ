@@ -1,5 +1,6 @@
 import cv2
 import os
+import datetime
 from tqdm import tqdm
 from decimal import *
 
@@ -41,23 +42,25 @@ def batch_extract_frame_modify():
             stride = int(Decimal(video_slice_len / 5).quantize(Decimal(0), rounding=ROUND_HALF_UP))
             idx = 0
             nums=0
-            while idx < video_slice_len:
+            while idx < video_slice_len-1:
                 cv2.imwrite(f"../videoslice/sub{index if index>=10 else '0'+str(index)}/{file[:-4]}/{nums}.jpg"
                             ,file_video_slice[idx])
                 nums+=1
                 if nums == 5:
                     break
-                if (idx + stride) < video_slice_len - 1:
+                if (idx + stride) < video_slice_len - 2:
                     idx += stride
                 else:
                     cv2.imwrite(f"../videoslice/sub{index if index >= 10 else '0' + str(index)}/{file[:-4]}/{nums}.jpg"
-                                , file_video_slice[-1])
+                                , file_video_slice[-2])
                     break
-
+            cv2.imwrite(f"../videoslice/sub{index if index >= 10 else '0' + str(index)}/{file[:-4]}/final_frame.jpg"
+                        , file_video_slice[-1])
 
 
 
 if __name__=='__main__':
     # batch_extract_frame()
-    batch_extract_frame_modify()
+    # batch_extract_frame_modify()
+    print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
